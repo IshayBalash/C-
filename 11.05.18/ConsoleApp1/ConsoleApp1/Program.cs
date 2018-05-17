@@ -25,13 +25,12 @@ namespace ConsoleApp1
             }
             int result = Calculate_Resulte(arr[0], arr[1]);
             Console.WriteLine(" the result is: {0}",result);
-            //function section//////
-             int Calculate_Resulte(int num1,int num2) {
-                int result1 = num1 - num2;
-                return result1;
-
-            };
-            
+            }
+        //function section//////
+        public static int Calculate_Resulte(int num1, int num2)
+        {
+            int result1 = num1 - num2;
+            return result1;
         }
     }
 }
